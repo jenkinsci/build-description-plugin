@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.399</version><!-- which version of Jenkins is this plugin built against? -->
+  </parent>
+
+  <artifactId>BuildDescription</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>hpi</packaging>
+  <name>BuildDescription</name>
+  <description>Adds description to build page from a chosen file</description>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/BuildDescription+plugin</url>
+    <developers>
+        <developer>
+            <id>direvius</id>
+            <name>Alexey Lavrenuke</name>
+            <email>direvius@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:ssh://github.com/jenkinsci/build-description-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/build-description-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/build-description-plugin</url>
+    </scm>
+    
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
